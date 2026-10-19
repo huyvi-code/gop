@@ -1,0 +1,37 @@
+body {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+
+/* Khung viền ngoài cùng với màu sắc riêng ở 4 cạnh */
+.main-container {
+  width: 650px;
+  padding: 30px 20px;
+  background-color: #ffffff;
+
+  /* Đặt thuộc tính border cho từng cạnh để giống mẫu */
+  border-top: 10px solid #7eff00; /* Cạnh trên màu xanh lá bright */
+  border-right: 10px solid #00ffff; /* Cạnh phải màu cyan */
+  border-bottom: 10px solid #0000ff; /* Cạnh dưới màu xanh dương */
+  border-left: 10px solid #8a2be2; /* Cạnh trái màu tím */
+}
+
+/* Khối văn bản nhỏ bên trong */
+.box-item {
+  border: 2px dotted #a52a2a; /* Viền nét chấm màu đỏ đun/nâu */
+  padding: 12px 15px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  line-height: 1.5;
+  color: #333333;
+}
+
+/* Bỏ khoảng cách margin-bottom của phần tử cuối cùng */
+.box-item:last-child {
+  margin-bottom: 0;
+}
