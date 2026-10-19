@@ -1,0 +1,80 @@
+/* Tổng thể trang web */
+body {
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.story-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.cover-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+/* Bước 7: Định dạng font chữ (font-family, font-size), màu sắc (color) và căn giữa cho tiêu đề truyện */
+.story-title {
+  font-family: "Georgia", serif;
+  font-size: 28px;
+  color: #8b0000;
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+
+/* Bước 8: Định dạng khối mục lục (border, background-color, padding) và hiệu ứng hover (text-decoration, :hover) */
+.toc-box {
+  border: 2px dashed #8b0000;
+  background-color: #fff8dc;
+  padding: 15px 25px;
+  margin: 25px 0;
+  border-radius: 6px;
+}
+
+.toc-box h2 {
+  font-size: 18px;
+  color: #333;
+  margin-top: 0;
+}
+
+.toc-box h5 {
+  margin: 8px 0;
+  font-size: 15px;
+}
+
+.toc-box a {
+  color: #0056b3;
+  text-decoration: none; /* Bỏ gạch chân mặc định */
+  transition: color 0.2s ease;
+}
+
+.toc-box a:hover {
+  color: #d9534f;
+  text-decoration: underline; /* Hiện gạch chân khi rê chuột */
+}
+
+/* Bước 9: Canh lề và giãn dòng cho các đoạn văn bản thân truyện (line-height, text-align, text-indent) */
+.story-content h3 {
+  color: #2c3e50;
+  margin-top: 30px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 5px;
+}
+
+.story-content p {
+  line-height: 1.8; /* Giãn dòng */
+  text-align: justify; /* Canh đều 2 lề */
+  text-indent: 30px; /* Thụt lùi đầu dòng */
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 15px;
+}
